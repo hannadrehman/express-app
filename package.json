@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "a simple static web server",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV=development&& export NODE_ENV_PORT=3000&& nodemon ./src/index.js",
+    "build": "node build.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "front end server"
+  ],
+  "author": "hannad rehman",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "express": "^4.16.3",
+    "helmet": "^3.12.2",
+    "express-http-proxy": "^1.2.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
